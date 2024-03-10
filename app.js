@@ -23,3 +23,14 @@ function color_title() {
 }
 
 color_titulo.addEventListener('input', color_title);
+
+//funcion cambio de texto de titulo
+
+let titulo = document.getElementById('titulo');
+
+let texto = document.getElementById('texto_nuevo');
+
+function cambiarTitulo() {
+    let nuevoTexto = document.getElementById('texto_nuevo').value;
+    document.getElementById('titulo').textContent = nuevoTexto;
+}

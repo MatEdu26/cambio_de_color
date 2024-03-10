@@ -37,7 +37,6 @@ section{
 h2{
     font-size: 20px;
     text-align: center;
-    text-decoration: dotted;
     margin-bottom: 15px;
 
 }
@@ -46,6 +45,14 @@ section:hover{
     font-size: 30px;
     transform: scale(1.1);
     color: red;
+}
+
+input[type="color"] {
+    font-size: 16px;
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+    border: 1px solid #ccc;
 }
 
 /* Footer */
