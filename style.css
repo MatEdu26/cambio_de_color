@@ -1,0 +1,56 @@
+body {
+    background-color: lightgreen;
+    margin: auto;
+}
+
+#titulo{
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;    
+}
+
+header{
+    margin: 20px 0px;
+    
+}
+
+main {
+    display: flex;
+    text-align: center;
+    align-items: normal;
+    margin: 20px 0px;
+}
+
+section{
+    border: 2px;
+    margin: 10px;
+    padding: 5px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: black;
+    background-color: blue;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    text-decoration: dotted;
+    margin-bottom: 5px;
+
+}
+
+/* Footer */
+
+h5{
+    color: white;
+}
+
+footer{
+    background: black;
+    font-style: italic;
+    width: auto;
+    height: auto;
+    text-align: center;
+    position: static;
+}
