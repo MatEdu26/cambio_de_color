@@ -1,5 +1,6 @@
 body {
-    margin: auto;
+    margin: 5px 20px;
+    background-color: bisque;
 }
 
 #titulo{
@@ -22,21 +23,29 @@ main {
 }
 
 section{
-    border: 2px;
     margin: 10px;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
+    border: 2px solid black;
     border-radius: 5px;
-    border-color: black;
-    background-color: blue;
+    height: 200px;
+    background-image: linear-gradient(to bottom,white, rgb(19, 91, 116));
+    display: grid;
 }
+
 
 h2{
     font-size: 20px;
     text-align: center;
     text-decoration: dotted;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
 
+}
+
+section:hover{
+    font-size: 30px;
+    transform: scale(1.1);
+    color: red;
 }
 
 /* Footer */
@@ -48,8 +57,9 @@ h5{
 footer{
     background: black;
     font-style: italic;
-    width: auto;
+    width: 100%;
     height: auto;
     text-align: center;
-    position: static;
+    position: fixed;
+    bottom: 0;
 }
